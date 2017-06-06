@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Time</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Arimo:400,700' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+	</head>
+	<body class="homepage">
+
+		<!-- Header -->
+		<div id="header">
+			<div class="container"> 
+				
+				<!-- Logo -->
+				<div id="logo">
+					<h1><a href="#">TIME</a></h1>
+					<span>Bienvenido</span>
+				</div>
+				
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="paginaUsuario.html">Inicio</a></li>
+						<li class="active"><a href="viajar.html">Viajar</a></li>
+						<li><a href="momentos.html">Mis momentos</a></li>
+						<li><a href="index.html">Cerrar sesión</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+					<!-- Header --> 
+	<div id="main">
+			<div class="container">
+				<div class="row">
+					
+					<!-- Content -->
+					<div id="content" class="8u skel-cell-important">
+						<section>
+							<header>
+								<h2>Introduzca la fecha y la hora </h2>
+								<br/>
+									<h2>a la que desea viajar:</h2>
+							</header>
+							<p>Recuerde que debe ser anterior a la fecha de hoy</p>
+
+<br/>
+							<form method="POST" action="viajeEnCurso.html">
+								<div class="login">
+									<div class="login-screen">
+
+										<div class="login-form">
+											<div class="control-group">
+											<input type="date" name="fecha" max= "2017-06-04" required/>
+											</div>
+<br/>
+											<div class="control-group">
+											<input type="time" name="hora">
+											</div>
+										
+<br/>
+											<input class="btn btn-primary btn-large btn-block" href="viajeEnCurso.html" type="submit" value="Aceptar"/>
+
+<br/> 
+<br/>
+										</div>
+									</div>
+								</div>
+							</form>
+							</section>
+					</div>
+
+				</div>
+			</div>
+		</div>
